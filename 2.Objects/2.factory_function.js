@@ -10,4 +10,4 @@ function createCircle(radius) {
     },
   };
 }
-const circle = createCircle(23, () => "NOo");
+const circle = createCircle(23, () => "NO");
