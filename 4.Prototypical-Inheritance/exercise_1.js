@@ -18,8 +18,8 @@ function HtmlSelectElement(items = []) {
   };
 }
 
-// The above code only inherits method decalred using prototype
-// HtmlSelectElement.prototype = Object.create(HtmlElement.prototype);
+//The above code only inherits method decalred using prototype
+//HtmlSelectElement.prototype = Object.create(HtmlElement.prototype);
 
 //To get both basic method and method from decalred as prototype
 //We have to use new method
