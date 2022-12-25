@@ -15,7 +15,7 @@ class Circle {
     return new Circle(radius);
   }
 }
-const cricle = Circle.parse("{ "radius": 1 }");
+const cricle = Circle.parse({ radius: 1 });
 console.log(cricle);
 
 // Just as do in JS built in functions Like Math
